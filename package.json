@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "postinstall": "patch-package"
+  },
+  "devDependencies": {
+    "@mdx-js/react": "^1.6.22",
+    "@parcel/config-default": "^2.8.3",
+    "@parcel/core": "^2.8.3",
+    "@parcel/resolver-glob": "^2.8.3",
+    "@parcel/runtime-browser-hmr": "^2.8.3",
+    "@parcel/transformer-mdx": "^2.8.3",
+    "@storybook/addon-essentials": "^7.0.0-beta.31",
+    "@storybook/addon-interactions": "^7.0.0-beta.31",
+    "@storybook/blocks": "^7.0.0-beta.31",
+    "@storybook/channel-postmessage": "^7.0.0-beta.31",
+    "@storybook/channel-websocket": "^7.0.0-beta.31",
+    "@storybook/preview": "7.0.0-beta.31",
+    "@storybook/preview-api": "7.0.0-beta.31",
+    "@storybook/react": "^7.0.0-beta.31",
+    "@storybook/theming": "^7.0.0-beta.31",
+    "assert": "^2.0.0",
+    "parcel": "^2.8.3",
+    "parcel-resolver-storybook": "workspace:^1.0.0",
+    "patch-package": "^6.5.0",
+    "process": "^0.11.10",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.0-beta.31",
+    "storybook-builder-parcel": "workspace:*",
+    "storybook-react-parcel": "workspace:*",
+    "typescript": "^4.9.4"
+  }
+}

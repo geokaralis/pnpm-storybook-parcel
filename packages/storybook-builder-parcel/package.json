@@ -1,0 +1,18 @@
+{
+	"name": "storybook-builder-parcel",
+	"version": "0.0.0",
+	"main": "preset.js",
+	"dependencies": {
+		"@storybook/core-common": "7.0.0-beta.31",
+		"glob-promise": "^6.0.2",
+		"http-proxy-middleware": "^2.0.6"
+	},
+	"peerDependencies": {
+		"@parcel/core": "^2.8.3",
+		"glob": "^8.1.0",
+		"react": "*"
+	},
+	"devDependencies": {
+		"glob": "^8.1.0"
+	}
+}
